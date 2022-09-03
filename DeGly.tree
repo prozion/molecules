@@ -1,0 +1,78 @@
+DeGly a:owl/Ontology
+	namespaces
+		rdf ns:http://www.w3.org/1999/02/22-rdf-syntax-ns#
+		rdfs ns:http://www.w3.org/2000/01/rdf-schema#
+		owl ns:http://www.w3.org/2002/07/owl#
+		dc ns:http://purl.org/dc/elements/1.1/
+		skos ns:http://www.w3.org/2004/02/skos/core#
+	classes +a:owl/Class +hierarchy-inverse-relation:subclass-of
+		Molecule
+		Atom
+			H name:"Hydrogen"
+			C name:"Carbon"
+			O name:"Oxygen"
+	properties +a:rdf/Property +hierarchy-inverse-relation:subproperty-of
+		chemical-bond
+			s d:"single chemical bond"
+			d d:"double chemical bond"
+			t d:"triple chemical bond"
+		part-of
+	individuals
+		DeGly a:Molecule +hierarchy-inverse-relation:part-of
+			O1 a:O d:C2
+			C2 a:C s:O3,C4
+			O3 a:O s:C5
+			C4 a:C d:C6 s:C7
+			C5 a:C s:C9,C8,H35
+			C6 a:C s:C8,C10
+			C7 a:C d:C11 s:H36
+			C8 a:C s:O12,H37
+			C9 a:C s:O13,C14,H38
+			C10 a:C s:O15 d:C16
+			C11 a:C s:C16,O17
+			O12 a:O s:C18
+			O13 a:O s:H39
+			C14 a:C s:C18,O19,H40
+			O15 a:O s:H41
+			C16 a:C s:O20
+			O17 a:O s:H42
+			C18 a:C s:C21,H43
+			O19 a:O s:H44
+			O20 a:O s:C22
+			C21 a:C s:O23,H45,H46
+			C22 a:C s:H47,H48,H49
+			O23 a:O s:C24
+			C24 a:C d:O25 s:C26
+			O25 a:O 
+			C26 a:C d:C28 s:C27
+			C27 a:C d:C29 s:H50
+			C28 a:C s:C30,H51
+			C29 a:C s:O31,C32
+			C30 a:C d:C32 s:O33
+			O31 a:O s:H52
+			C32 a:C s:O34
+			O33 a:O s:H53
+			O34 a:O s:H54
+			H35 a:H
+			H36 a:H
+			H37 a:H
+			H38 a:H
+			H39 a:H
+			H40 a:H
+			H41 a:H
+			H42 a:H
+			H43 a:H
+			H44 a:H
+			H45 a:H
+			H46 a:H
+			H47 a:H
+			H48 a:H
+			H49 a:H
+			H50 a:H
+			H51 a:H
+			H52 a:H
+			H53 a:H
+			H54 a:H
+
+
+	
