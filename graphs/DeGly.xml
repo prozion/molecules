@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<graphml
+  xmlns="http://graphml.graphdrawing.org/xmlns"
+  xmlns:xsi="http://www.w3c.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+  <graph id="molecule_graph" edgedefault="undirected">
+    <node id="H40" labels="H"><data key="name">H</data></node>
+		<node id="O34" labels="O"><data key="name">O</data></node>
+		<node id="C28" labels="C"><data key="name">C</data></node>
+		<node id="C14" labels="C"><data key="name">C</data></node>
+		<node id="C30" labels="C"><data key="name">C</data></node>
+		<node id="O15" labels="O"><data key="name">O</data></node>
+		<node id="C5" labels="C"><data key="name">C</data></node>
+		<node id="C27" labels="C"><data key="name">C</data></node>
+		<node id="C24" labels="C"><data key="name">C</data></node>
+		<node id="C2" labels="C"><data key="name">C</data></node>
+		<node id="C6" labels="C"><data key="name">C</data></node>
+		<node id="H36" labels="H"><data key="name">H</data></node>
+		<node id="C21" labels="C"><data key="name">C</data></node>
+		<node id="H48" labels="H"><data key="name">H</data></node>
+		<node id="H49" labels="H"><data key="name">H</data></node>
+		<node id="H38" labels="H"><data key="name">H</data></node>
+		<node id="C29" labels="C"><data key="name">C</data></node>
+		<node id="O31" labels="O"><data key="name">O</data></node>
+		<node id="H47" labels="H"><data key="name">H</data></node>
+		<node id="H51" labels="H"><data key="name">H</data></node>
+		<node id="H35" labels="H"><data key="name">H</data></node>
+		<node id="C11" labels="C"><data key="name">C</data></node>
+		<node id="O12" labels="O"><data key="name">O</data></node>
+		<node id="O19" labels="O"><data key="name">O</data></node>
+		<node id="C26" labels="C"><data key="name">C</data></node>
+		<node id="O20" labels="O"><data key="name">O</data></node>
+		<node id="C32" labels="C"><data key="name">C</data></node>
+		<node id="O25" labels="O"><data key="name">O</data></node>
+		<node id="C8" labels="C"><data key="name">C</data></node>
+		<node id="H46" labels="H"><data key="name">H</data></node>
+		<node id="C22" labels="C"><data key="name">C</data></node>
+		<node id="H41" labels="H"><data key="name">H</data></node>
+		<node id="H53" labels="H"><data key="name">H</data></node>
+		<node id="H43" labels="H"><data key="name">H</data></node>
+		<node id="H44" labels="H"><data key="name">H</data></node>
+		<node id="O13" labels="O"><data key="name">O</data></node>
+		<node id="C4" labels="C"><data key="name">C</data></node>
+		<node id="C7" labels="C"><data key="name">C</data></node>
+		<node id="O23" labels="O"><data key="name">O</data></node>
+		<node id="H54" labels="H"><data key="name">H</data></node>
+		<node id="O3" labels="O"><data key="name">O</data></node>
+		<node id="H45" labels="H"><data key="name">H</data></node>
+		<node id="H42" labels="H"><data key="name">H</data></node>
+		<node id="O1" labels="O"><data key="name">O</data></node>
+		<node id="H37" labels="H"><data key="name">H</data></node>
+		<node id="C16" labels="C"><data key="name">C</data></node>
+		<node id="C9" labels="C"><data key="name">C</data></node>
+		<node id="C10" labels="C"><data key="name">C</data></node>
+		<node id="C18" labels="C"><data key="name">C</data></node>
+		<node id="O33" labels="O"><data key="name">O</data></node>
+		<node id="H50" labels="H"><data key="name">H</data></node>
+		<node id="H39" labels="H"><data key="name">H</data></node>
+		<node id="H52" labels="H"><data key="name">H</data></node>
+		<node id="O17" labels="O"><data key="name">O</data></node>
+		
+    <edge source="O34" target="H54"><data key="label">single</data></edge>
+		<edge source="C28" target="C30"><data key="label">single</data></edge>
+		<edge source="C28" target="H51"><data key="label">single</data></edge>
+		<edge source="C14" target="C18"><data key="label">single</data></edge>
+		<edge source="C14" target="O19"><data key="label">single</data></edge>
+		<edge source="C14" target="H40"><data key="label">single</data></edge>
+		<edge source="C30" target="O33"><data key="label">single</data></edge>
+		<edge source="C30" target="C32"><data key="label">double</data></edge>
+		<edge source="O15" target="H41"><data key="label">single</data></edge>
+		<edge source="C5" target="C8"><data key="label">single</data></edge>
+		<edge source="C5" target="C9"><data key="label">single</data></edge>
+		<edge source="C5" target="H35"><data key="label">single</data></edge>
+		<edge source="C27" target="H50"><data key="label">single</data></edge>
+		<edge source="C27" target="C29"><data key="label">double</data></edge>
+		<edge source="C24" target="C26"><data key="label">single</data></edge>
+		<edge source="C24" target="O25"><data key="label">double</data></edge>
+		<edge source="C2" target="O3"><data key="label">single</data></edge>
+		<edge source="C2" target="C4"><data key="label">single</data></edge>
+		<edge source="C6" target="C8"><data key="label">single</data></edge>
+		<edge source="C6" target="C10"><data key="label">single</data></edge>
+		<edge source="C21" target="O23"><data key="label">single</data></edge>
+		<edge source="C21" target="H45"><data key="label">single</data></edge>
+		<edge source="C21" target="H46"><data key="label">single</data></edge>
+		<edge source="C29" target="O31"><data key="label">single</data></edge>
+		<edge source="C29" target="C32"><data key="label">single</data></edge>
+		<edge source="O31" target="H52"><data key="label">single</data></edge>
+		<edge source="C11" target="C16"><data key="label">single</data></edge>
+		<edge source="C11" target="O17"><data key="label">single</data></edge>
+		<edge source="O12" target="C18"><data key="label">single</data></edge>
+		<edge source="O19" target="H44"><data key="label">single</data></edge>
+		<edge source="C26" target="C27"><data key="label">single</data></edge>
+		<edge source="C26" target="C28"><data key="label">double</data></edge>
+		<edge source="O20" target="C22"><data key="label">single</data></edge>
+		<edge source="C32" target="O34"><data key="label">single</data></edge>
+		<edge source="C8" target="O12"><data key="label">single</data></edge>
+		<edge source="C8" target="H37"><data key="label">single</data></edge>
+		<edge source="C22" target="H47"><data key="label">single</data></edge>
+		<edge source="C22" target="H48"><data key="label">single</data></edge>
+		<edge source="C22" target="H49"><data key="label">single</data></edge>
+		<edge source="O13" target="H39"><data key="label">single</data></edge>
+		<edge source="C4" target="C7"><data key="label">single</data></edge>
+		<edge source="C4" target="C6"><data key="label">double</data></edge>
+		<edge source="C7" target="H36"><data key="label">single</data></edge>
+		<edge source="C7" target="C11"><data key="label">double</data></edge>
+		<edge source="O23" target="C24"><data key="label">single</data></edge>
+		<edge source="O3" target="C5"><data key="label">single</data></edge>
+		<edge source="O1" target="C2"><data key="label">double</data></edge>
+		<edge source="C16" target="O20"><data key="label">single</data></edge>
+		<edge source="C9" target="O13"><data key="label">single</data></edge>
+		<edge source="C9" target="C14"><data key="label">single</data></edge>
+		<edge source="C9" target="H38"><data key="label">single</data></edge>
+		<edge source="C10" target="O15"><data key="label">single</data></edge>
+		<edge source="C10" target="C16"><data key="label">double</data></edge>
+		<edge source="C18" target="C21"><data key="label">single</data></edge>
+		<edge source="C18" target="H43"><data key="label">single</data></edge>
+		<edge source="O33" target="H53"><data key="label">single</data></edge>
+		<edge source="O17" target="H42"><data key="label">single</data></edge>
+		
+  </graph>
+</graphml>

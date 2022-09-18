@@ -1,0 +1,54 @@
+O1 index:1 a:O d:C2
+C2 index:2 a:C s:O3,C4
+O3 index:3 a:O s:C5
+C4 index:4 a:C s:C7 d:C6
+C5 index:5 a:C s:C8,C9,H35
+C6 index:6 a:C s:C8,C10
+C7 index:7 a:C s:H36 d:C11
+C8 index:8 a:C s:O12,H37
+C9 index:9 a:C s:O13,C14,H38
+C10 index:10 a:C s:O15 d:C16
+C11 index:11 a:C s:C16,O17
+O12 index:12 a:O s:C18
+O13 index:13 a:O s:H39
+C14 index:14 a:C s:C18,O19,H40
+O15 index:15 a:O s:H41
+C16 index:16 a:C s:O20
+O17 index:17 a:O s:H42
+C18 index:18 a:C s:C21,H43
+O19 index:19 a:O s:H44
+O20 index:20 a:O s:C22
+C21 index:21 a:C s:O23,H45,H46
+C22 index:22 a:C s:H47,H48,H49
+O23 index:23 a:O s:C24
+C24 index:24 a:C s:C26 d:O25
+O25 index:25 a:O
+C26 index:26 a:C s:C27 d:C28
+C27 index:27 a:C s:H50 d:C29
+C28 index:28 a:C s:C30,H51
+C29 index:29 a:C s:O31,C32
+C30 index:30 a:C s:O33 d:C32
+O31 index:31 a:O s:H52
+C32 index:32 a:C s:O34
+O33 index:33 a:O s:H53
+O34 index:34 a:O s:H54
+H35 index:35 a:H
+H36 index:36 a:H
+H37 index:37 a:H
+H38 index:38 a:H
+H39 index:39 a:H
+H40 index:40 a:H
+H41 index:41 a:H
+H42 index:42 a:H
+H43 index:43 a:H
+H44 index:44 a:H
+H45 index:45 a:H
+H46 index:46 a:H
+H47 index:47 a:H
+H48 index:48 a:H
+H49 index:49 a:H
+H50 index:50 a:H
+H51 index:51 a:H
+H52 index:52 a:H
+H53 index:53 a:H
+H54 index:54 a:H
